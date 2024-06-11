@@ -1,4 +1,4 @@
-/* Global CSS reset */
+/* Global CSS reset
 html, body {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ html, body {
     background-color: #464A4D;
     padding: 15px;
     color: white;
-    margin: 0; /* Ensure no margin on nav */
+    margin: 0; 
   }
   
   .address {
@@ -33,7 +33,7 @@ html, body {
   .social img {
     height: 20px;
     width: 20px;
-    margin-left: 10px; /* Add space between social icons */
+    margin-left: 10px;
   }
   .hello{
     display: flex;
@@ -43,4 +43,4 @@ html, body {
     margin: 20px;
 
     
-  }
+  } */

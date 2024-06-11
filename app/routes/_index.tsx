@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 
-import styles from "app/styles/style.css";
+// import styles from "app/styles/style.css";
 import { LinksFunction } from "@remix-run/node";
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
@@ -13,9 +13,9 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export const links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: styles }];
-};
+// export const links: LinksFunction = () => {
+//   return [{ rel: "stylesheet", href: styles }];
+// };
 
 export default function Index() {
   const [dropDown, isDropdownOpen] = useState(false);
