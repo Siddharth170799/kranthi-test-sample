@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
-// import styles from "app/styles/style.css"
-import styles from "~/styles/style.css";
+
+import styles from "app/styles/style.css";
 import { LinksFunction } from "@remix-run/node";
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
