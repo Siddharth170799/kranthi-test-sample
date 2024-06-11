@@ -1,0 +1,46 @@
+/* Global CSS reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #464A4D;
+    padding: 15px;
+    color: white;
+    margin: 0; /* Ensure no margin on nav */
+  }
+  
+  .address {
+    margin-right: 15%;
+    margin-left: 5%;
+  }
+  
+  .phone {
+    margin-right: 22%;
+  }
+  
+  .social img {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px; /* Add space between social icons */
+  }
+  .hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+
+    
+  }
